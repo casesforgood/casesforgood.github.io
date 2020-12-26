@@ -684,16 +684,22 @@ hr {
 }
 
 #hero-area .contents {
-  padding: 170px 0px 50px;
+  padding: 50px 0px 50px;
 }
 
 #hero-area .contents h5 {
   font-size: 50px;
 }
 
+#hero-area .contents p {
+  font-size: 20px;
+  color: #585b60;
+  margin-bottom:20px;
+}
+
 #hero-area .contents .head-title {
   color: #585b60;
-  font-size: 34px;
+  font-size: 48px;
   line-height: 48px;
   font-weight: 700;
   margin-bottom: 30px;
@@ -705,13 +711,13 @@ hr {
 
 /* Team Item */
 .team-item:hover {
-  box-shadow: 0 20px 30px -12px rgba(0, 0, 0, 0.35);
+  /*box-shadow: 0 20px 30px -12px rgba(0, 0, 0, 0.35);*/
 }
 
 .team-item {
   margin: 15px 0;
   border-radius: 0px;
-  box-shadow: 0 10px 30px -7px rgba(0, 0, 0, 0.35);
+  /*box-shadow: 0 10px 30px -7px rgba(0, 0, 0, 0.35);*/
   transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
