@@ -1,239 +1,280 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Global</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="HTML5 website template">
-  <meta name="keywords" content="global, template, html, sass, jquery">
-  <meta name="author" content="Bucky Maler">
-  <link rel="stylesheet" href="assets/css/main.css">
-  <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/0df88b9fefe5fd50f337848ad/91b8dd32661c31035d87fb2da.js");</script>
-</head>
-<body>
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Cases for Good</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/sass/main.css" />
+		<noscript><link rel="stylesheet" href="assets/sass/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Home</a></li>
+							<li><a href="#one">About</a></li>
+							<li><a href="#two">Team</a></li>
+							<li><a href="#three">Projects</a></li>
+							<li><a href="#four">Testimonials</a></li>
+							<li><a href="#five">Get in touch</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+		<!-- Wrapper -->
+			<div id="wrapper">
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<div class="row">
+								<div id="logo" class="col-3 col-4-large col-12-small">
+									<img src="images/logo_min.png" style="width:90%" alt="" data-position="center center" />
+								</div>
+								<div class="col-9 col-8-large col-12-small">
+									<h2>Prepare for your Case Interviews with us.</h2>
+									<p>And help those in need along the way.</p>
+									<br>
+								</div>	
+							</div>
+							<div class="row">											
+								<div class="col-6 col-12-small">
+									<h3>Receive updates</h3>
+									<div id="mc_embed_signup">
+										<form action="https://casesforgood.us7.list-manage.com/subscribe/post?u=0df88b9fefe5fd50f337848ad&amp;id=bf6a1c740b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+											<div id="mc_embed_signup_scroll" class="fields">
+												<div class="field mc-field-group information-name">
+													<input type="text" value="" name="FNAME" class="" id="mce-FNAME" spellcheck="false" placeholder="Name"/>
+												</div>
+												<div class="field mc-field-group information-email">
+													<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" spellcheck="false" placeholder="Email"/>
+												</div>
 
-<!-- notification for small viewports and landscape oriented smartphones -->
-<div class="device-notification">
-  <a class="device-notification--logo" href="#0">
-    <img src="assets/img/logo.png" alt="Global">
-  </a>
-  <p class="device-notification--message">Global has so much to offer that we must request you orient your device to portrait or find a larger screen. You won't be disappointed.</p>
-</div>
+												<div id="mce-responses" class="clear">
+													<div class="response" id="mce-error-response" style="display:none"></div>
+													<div class="response" id="mce-success-response" style="display:none"></div>
+												</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+												<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0df88b9fefe5fd50f337848ad_bf6a1c740b" tabindex="-1" value=""></div>
+												
+												<div class="field">
+													<ul class="actions">
+														<li><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button submit"></li>
+													</ul>									
+												</div>									
+											</div>
 
-<div class="perspective effect-rotate-left">
-  <div class="container"><div class="outer-nav--return"></div>
-    <div id="viewport" class="l-viewport">
-      <div class="l-wrapper">
-        <header class="header">
-          <a class="header--logo" href="#0">
-            <img src="assets/img/logo.png" alt="Global">
-          </a>
-          <button class="header--cta cta">Subscribe</button>
-          <div class="header--nav-toggle">
-            <span></span>
-          </div>
-        </header>
-        <nav class="l-side-nav">
-          <ul class="side-nav">
-            <li class="is-active"><span>Home</span></li>
-            <li><span>Projects</span></li>
-            <li><span>About</span></li>
-            <li><span>Contact</span></li>
-            <li><span>Subscribe</span></li>
-          </ul>
-        </nav>
-        <ul class="l-main-content main-content">
-          <li class="l-section section section--is-active">
-            <div class="intro">
-              <div class="intro--banner">
-                <h1>Prepare for your<br>case interviews<br>with us</h1>
-                <button class="cta">Subscribe
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                  </g>
-                  </svg>
-                  <span class="btn-background"></span>
-                </button>
-                <img src="assets/img/introduction-visual.png" alt="Welcome">
-              </div>
-              <ul class="intro--options">
-                <li href="#0">
-                  <h3>Metiew &amp; Smith</h3>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, eveniet! Laboriosam, quae repellendus! Quod repudiandae labore eum numquam consectetur ea odit, maxime explicabo consequuntur dignissimos, similique aliquam, quae vitae nesciunt?</p>
-                </li>
-                <li href="#0">
-                  <h3>Fantasy interactive</h3>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, eveniet! Laboriosam, quae repellendus! Quod repudiandae labore eum numquam consectetur ea odit, maxime explicabo consequuntur dignissimos, similique aliquam, quae vitae nesciunt?</p>
-                </li>
-                <li href="#0">
-                  <h3>Paul &amp; shark</h3>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, eveniet! Laboriosam, quae repellendus! Quod repudiandae labore eum numquam consectetur ea odit, maxime explicabo consequuntur dignissimos, similique aliquam, quae vitae nesciunt?</p>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="l-section section">
-            <div class="work">
-              <h2>Projects</h2>
-              <div class="work--lockup">
-                <ul class="slider">
-                  <li class="slider--item slider--item-left">
-                    <a href="#0">
-                      <div class="slider--item-image">
-                        <img src="assets/img/work-victory.jpg" alt="Victory">
-                      </div>
-                      <p class="slider--item-title">Victory</p>
-                      <p class="slider--item-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, eveniet! Laboriosam, quae repellendus! Quod repudiandae labore eum numquam consectetur ea odit, maxime explicabo consequuntur dignissimos, similique aliquam, quae vitae nesciunt?</p>
-                    </a>
-                  </li>
-                  <li class="slider--item slider--item-center">
-                    <a href="#0">
-                      <div class="slider--item-image">
-                        <img src="assets/img/work-metiew-smith.jpg" alt="Metiew and Smith">
-                      </div>
-                      <p class="slider--item-title">Metiew &amp; Smith</p>
-                      <p class="slider--item-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, eveniet! Laboriosam, quae repellendus! Quod repudiandae labore eum numquam consectetur ea odit, maxime explicabo consequuntur dignissimos, similique aliquam, quae vitae nesciunt?</p>
-                    </a>
-                  </li>
-                  <li class="slider--item slider--item-right">
-                    <a href="#0">
-                      <div class="slider--item-image">
-                        <img src="assets/img/work-alex-nowak.jpg" alt="Alex Nowak">
-                      </div>
-                      <p class="slider--item-title">Alex Nowak</p>
-                      <p class="slider--item-description">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, eveniet! Laboriosam, quae repellendus! Quod repudiandae labore eum numquam consectetur ea odit, maxime explicabo consequuntur dignissimos, similique aliquam, quae vitae nesciunt?
-                      </p>
-                    </a>
-                  </li>
-                </ul>
-                <div class="slider--prev">
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
-                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
-                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
-                  </g>
-                  </svg>
-                </div>
-                <div class="slider--next">
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                  </g>
-                  </svg>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="l-section section">
-            <div class="about">
-              <div class="about--banner">
-                <h2>We<br>believe in<br>passionate<br>people</h2>
-                <a href="#0">Career
-                  <span>
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                    <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                      <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                    </g>
-                    </svg>
-                  </span>
-                </a>
-                <img src="assets/img/about-visual.png" alt="About Us">
-              </div>
-              <div class="about--options">
-                <a href="#0">
-                  <h3>Winners</h3>
-                </a>
-                <a href="#0">
-                  <h3>Philosophy</h3>
-                </a>
-                <a href="#0">
-                  <h3>History</h3>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li class="l-section section">
-            <div class="contact">
-              <div class="contact--lockup">
-                <div class="modal">
-                  <div class="modal--information">
-                    <p>Pawia 5, 31-154 Kraków, Poland</p>
-                    <a href="mailto:ouremail@gmail.com">ouremail@gmail.com</a>
-                    <a href="tel:+148126287560">+48 12 628 75 60</a>
-                  </div>
-                  <ul class="modal--options">
-                    <li><a href="#0">Bēhance</a></li>
-                    <li><a href="#0">dribbble</a></li>
-                    <li><a href="mailto:ouremail@gmail.com">Contact Us</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="l-section section">
-            <div class="hire">
-              <h2>Subscribe to our newsletter</h2>
-              <!-- checkout formspree.io for easy form setup -->
-              <div class="work-request">
-                <!-- Begin Mailchimp Signup Form -->
-                <div id="mc_embed_signup">
-                  <form action="https://casesforgood.us7.list-manage.com/subscribe/post?u=0df88b9fefe5fd50f337848ad&amp;id=bf6a1c740b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <div id="mc_embed_signup_scroll" class="work-request--information">
-                      <div class="mc-field-group information-name">
-                        <label for="mce-FNAME">Name </label>
-                        <input type="text" value="" name="FNAME" class="" id="mce-FNAME" spellcheck="false">
-                      </div>
-                      <div class="mc-field-group information-email">
-                        <label for="mce-EMAIL">Email</label>
-                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" spellcheck="false">
-                      </div>
-                      <div id="mce-responses" class="clear">
-                        <div class="response" id="mce-error-response" style="display:none"></div>
-                        <div class="response" id="mce-success-response" style="display:none"></div>
-                      </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0df88b9fefe5fd50f337848ad_bf6a1c740b" tabindex="-1" value=""></div>
-                      <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-                    </form>
-                </div>
-                <div class="work-request--options">
-                  <span class="options-a">
-                    <label for="opt-1">
-                      <a href="#">Facebook</a>
-                    </label>
-                    <label for="opt-2">
-                      <a href="#">LinkedIn</a>
-                    </label>
-                    <label for="opt-3">
-                      <a href="#">Instagram</a>
-                    </label>
-                  </span>
-                </div>
-              </div>
+										</form>
+									</div>
+								</div>
+								<div class="col-6 col-12-small">
+									<h3>Get in touch</h3>
+									<p>Send us an email using our <a href="https://us7.list-manage.com/contact-form?u=0df88b9fefe5fd50f337848ad&form_id=ec716ad98f3748ccd3d7860926eb85b4" id="contact-form-trigger">contact form </a> or reach out via social media.</p>
+									<ul class="icons">
+										<li><a href="https://www.facebook.com/casesforgood/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<!--<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>-->
+										<li><a href="https://www.linkedin.com/company/cases-for-good" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+									</ul>
+								</div>								
+							</div>	
+							<div class="row">
+								<div class="col-5"></div>
+								<div class="col-7 col-12-small">	
 
-                <!--End mc_embed_signup-->
-              </form>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <ul class="outer-nav">
-    <li class="is-active">Home</li>
-    <li>Projects</li>
-    <li>About</li>
-    <li>Contact</li>
-    <li>Subscribe</li>
-  </ul>
-</div>
+								</div>					
+							</div>
+						</div>
+						
+					</section>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
-<script src="assets/js/functions-min.js"></script>
-</body>
+				<!-- One -->
+				<section id="one" class="wrapper style3 fade-up">
+					<div class="inner">
+						<h2>What we do</h2>
+						<p>
+							Our ethos is simple: knowledge and impact are intertwined.
+							<br>
+							All of our products and services described below are provided in exchange for donations to charities of our choice.
+							<br>
+							If you are a charity that wishes to partner with us, please do <a href="#five" class="scrolly">contact us</a> and we will see what we can do for you!
+						</p>
+						<div class="features">						
+							<section>
+								<span class="icon solid major fa-code"></span>
+								<h3>Case Interview Workshops</h3>
+								<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+							</section>
+							<section>
+								<span class="icon solid major fa-lock"></span>
+								<h3>Consulting Skills Webinars</h3>
+								<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+							</section>
+							<section>
+								<span class="icon solid major fa-cog"></span>
+								<h3>Mock Interviews</h3>
+								<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+							</section>
+							<section>
+								<span class="icon solid major fa-desktop"></span>
+								<h3>Prep Guides</h3>
+								<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+							</section>
+						</div>
+					</div>
+				</section>
+
+
+				<!-- Two -->
+					<section id="two" class="wrapper style2 spotlights">
+						<div class="inner">
+							<h2>Meet the Team</h2>
+						</div>				
+						<section>
+							<div class="content">
+								<div class="inner">
+									<h3>Ablay</h3>
+									<i>Co-founder</i>
+									<p class="readmore">Welcome! My name is Ablay, I grew up in Kazakhstan before leaving to complete A Levels in the UK. Graduating with an Economics degree from Cambridge, I left to pursue a masters at Oxford.
+										<br><br>
+										Through my studies and internships, I progressively developed an interest in business development and problem solving - a combination that left consulting as the best career option.
+										<br><br>
+										Outside of academics and professional life, I enjoy cooking, motorsports and playing the guitar.</p>
+								</div>
+							</div>
+							<a href="#" class="image"><img src="images/ablay.jpeg" alt="" data-position="center center" /></a>
+						</section>
+						<section>
+							<div class="content">
+								<div class="inner">
+									<h3>Isaac</h3>
+									<i>Co-founder</i>
+									<p class="readmore">Hello, I’m Isaac. I grew up in a small but cosy island called Penang!
+										<br><br>
+										Having studied engineering at university, I realised my passion was rather in business & entrepreneurship instead! I’m fortunate enough to gain experiences interning across multiple industries of consulting, banking as well as big tech.
+										<br><br>
+										In my spare time, I swim, play basketball & hone my cooking skills by trying out new recipes.</p>
+								</div>
+							</div>
+							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>							
+						</section>
+						<section>
+							<div class="content">
+								<div class="inner">
+									<h3>Nattalyn</h3>
+									<i>Program Manager</i>
+									<p class="readmore">Hi everyone! I’m Nattalyn studying Chemistry...or at least I believe I am.
+										<br><br>
+										Over the past year, we’ve been confronted by such uncertainty and turbulence that it has nudged me to reflect on how I could give back to society and help others. Having said this, I like to seize any opportunities to develop new skills that could help me grow as an individual too. Grateful to be part of this team, I hope to create a social impact and make a difference together. As the saying goes, “Constant kindness can accomplish much.”
+										<br><br>
+										Ps. I love badminton!</p>
+								</div>
+							</div>
+							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+						</section>
+						<section>
+							<div class="content">
+								<div class="inner">
+									<h3>Michelle</h3>
+									<i>Marketing Director</i>
+									<p class="readmore">Hello! I’m Michelle from the beautiful island of Penang.
+										<br><br>
+										I believe we, as a community collectively can instigate change and being part of this initiative grants me the opportunity to harness the skills I’ve acquired to solely create a social impact whilst enhancing my technical skills including digital marketing which is an area of expertise that I am intrigued to explore.
+										<br><br>
+										My other interests include music, art and I enjoy trying out different things to gain new skills with my constant desire to develop myself - professionally and personally.
+										</p>
+								</div>
+							</div>
+							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+						</section>
+					</section>
+
+				<!-- Three -->
+				<section id="three" class="wrapper style2 spotlights">
+					<div class="inner">
+						<h2>Our projects</h2>
+					</div>	
+					<section>
+						<div class="content">
+							<div class="inner">
+								<h3>Secure your Consulting Offer</h3>
+								<p class="readmore">Thank you everyone for attending our very first exclusive case webinar in partnership with 180 Degrees Consulting: University of Cambridge. We deeply appreciate all your contributions to the Coronavirus Tutoring Initiative and supporting our cause.
+									<br><br>
+									In this webinar we managed to cover plenty of ground - from the 7 basic consulting skills to a highly-interactive, in-depth case study.
+									<br><br>
+									We had a total audience of 40 exclusive participants from the University of Cambridge where 75% of the attendees confirmed that this case interview session was more useful than other webinars they’ve attended!</p>
+							</div>
+						</div>
+						<span class="image"><img src="images/project1.jpeg" alt="" data-position="center center" /></span>						
+					</section>
+					<section>
+						<div class="content">
+							<div class="inner">
+								<h3>Mastering Market Sizing</h3>
+								<p class="readmore">Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+							</div>
+						</div>
+						<span class="image"><img src="images/project1.jpeg" alt="" data-position="top center" /></span>						
+					</section>
+					
+				</section>
+
+				<!-- Four -->
+					<section id="four" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2>Testimonials</h2>
+							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<div class="features">
+								<section>
+									<span class="icon solid major fa-code"></span>
+									<h3>Natasha <br> <i>London Consulting firm Offer Holder</i></h3>
+									<blockquote>The mock interview session I had with Isaac was extremely valuable, both in terms of the type of case he gave as well as the quality of the feedback I received. The session was also very engaging and he helped me to not only identify my weaknesses, but also suggested tangible ways to improve my casing skills. It made a huge difference in securing my offer!</blockquote>
+								</section>
+								<section>
+									<span class="icon solid major fa-lock"></span>
+									<h3>Amber <br> <i>Cambridge Undergraduate</i></h3>
+									<blockquote>The Cases for Good team has been excellent both during the webinar and mock case interview. I liked how they not only listened to our structure and attempts but also made personalised comments on them during the interactive webinar. Ablay guided me well throughout and provided fresh insights during the feedback.</blockquote>
+								</section>
+							</div>
+						</div>
+					</section>
+				<!-- Five -->
+				<section id="five" class="wrapper style1 fade-up">
+					<div class="inner">
+						<h2>Get in touch</h2>
+						<p>Send us an email using our <a href="https://us7.list-manage.com/contact-form?u=0df88b9fefe5fd50f337848ad&form_id=ec716ad98f3748ccd3d7860926eb85b4" id="contact-form-trigger">contact form </a> or reach out via social media.</p>
+						<ul class="icons">
+							<li><a href="https://www.facebook.com/casesforgood/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<!--<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>-->
+							<li><a href="https://www.linkedin.com/company/cases-for-good" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						</ul>
+					</div>
+				</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Cases for Good. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/readmore.js"></script>
+			<script src="assets/js/main.js"></script>
+			
+	</body>
 </html>
