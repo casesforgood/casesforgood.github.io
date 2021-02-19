@@ -7,7 +7,7 @@
 (function($) {
 
 	$('.readmore').readmore({
-		collapsedHeight: 155
+		collapsedHeight: 95
 	});
 
 
