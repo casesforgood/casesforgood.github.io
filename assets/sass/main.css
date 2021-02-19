@@ -5961,7 +5961,7 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 /* Type */
 body, input, select, textarea {
   color: rgba(255, 255, 255, 0.55);
-  font-family: Helvetica Neue, Arial, sans-serif;
+  font-family: Open Sans, Helvetica Neue, Arial, sans-serif;
   font-size: 14pt;
   font-weight: normal;
   line-height: 1.75;
