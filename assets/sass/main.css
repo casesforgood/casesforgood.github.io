@@ -9367,4 +9367,20 @@ body.is-preload #sidebar nav ul li {
     background-attachment: scroll;
   }
 }
+
+#intro .counter-row {
+  margin-bottom: 3em;
+}
+
+#intro .counter-row .counter-container {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-width: 0px 1px;
+  padding: 1em;
+  text-align: center;
+}
+
+#intro .counter-row .counter-container span {
+  font-size: 4em;
+  color: gainsboro;
+}
 /*# sourceMappingURL=main.css.map */

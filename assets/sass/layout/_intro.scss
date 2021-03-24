@@ -30,4 +30,24 @@
 		@include breakpoint('<=large') {
 			background-attachment: scroll;
 		}
+
+		.counter-row {
+			margin-bottom:3em;
+			
+			.counter-container {
+				border:1px solid _palette(border);
+				border-width: 0px 1px;
+				padding:1em;
+				text-align: center;
+				h3 {
+					//border-bottom:1px solid _palette(border);
+				}
+				span {
+					font-size: 4em;
+					color: rgb(220, 220, 220)
+				}
+
+			}
+
+		}
 	}
